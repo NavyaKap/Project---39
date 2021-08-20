@@ -102,7 +102,7 @@ function createCash() {
   cash.addImage(cashImg);
   cash.scale=0.12;
   cash.velocityY = 3;
-  cash.lifetime = 150;
+  cash.lifetime = 350;
   cashG.add(cash);
   }
 }
@@ -116,7 +116,7 @@ function createJwellery() {
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
   jwellery.velocityY = 3;
-  jwellery.lifetime = 150;
+  jwellery.lifetime = 350;
   jwelleryG.add(jwellery);
   }
 }
@@ -127,7 +127,7 @@ function createSword(){
   sword.addImage(swordImg);
   sword.scale=0.1;
   sword.velocityY = 3;
-  sword.lifetime = 150;
+  sword.lifetime = 350;
   swordGroup.add(sword);
   }
 }
